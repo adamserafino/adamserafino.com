@@ -42,12 +42,16 @@
       text-shadow: 1px 1px 2px black;
     }
 
-    /* Stronger shadow for the main welcome message */
     .hero-title {
       font-size: 2.5em;
       text-shadow:
         3px 3px 8px black,
         0 0 12px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Shift main content to the right by 2 inches */
+    .content {
+      margin-left: 2in;
     }
   </style>
 </head>
@@ -61,14 +65,17 @@
     <a href="social.html">Social Media</a>
   </div>
 
-  <h1 class="hero-title">Welcome to AdamSerafino.com</h1>
-  <h1>Actor, photographer, event coordinator and more!</h1>
-  <p>
-    See my book here: 
-    <a href="https://www.amazon.com/Write-Book-Super-Duper-Fast/dp/1731164076/ref=sr_1_1?crid=1UDJL86PJ4P0K&keywords=adam+serafino&qid=1678379816&sprefix=adam+serafino%2Caps%2C156&sr=8-1">
-      My Book on Amazon
-    </a>
-  </p>
+  <!-- Main Content Shifted Right -->
+  <div class="content">
+    <h1 class="hero-title">Welcome to AdamSerafino.com</h1>
+    <h1>Actor, photographer, event coordinator and more!</h1>
+    <p>
+      See my book here: 
+      <a href="https://www.amazon.com/Write-Book-Super-Duper-Fast/dp/1731164076/ref=sr_1_1?crid=1UDJL86PJ4P0K&keywords=adam+serafino&qid=1678379816&sprefix=adam+serafino%2Caps%2C156&sr=8-1">
+        My Book on Amazon
+      </a>
+    </p>
+  </div>
 
 </body>
 </html>
