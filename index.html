@@ -17,9 +17,8 @@
       font-family: Arial, sans-serif;
     }
 
-    /* Simple navbar styles */
     .navbar {
-      background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+      background-color: rgba(0, 0, 0, 0.6);
       overflow: hidden;
       padding: 10px 20px;
     }
@@ -42,6 +41,14 @@
       color: white;
       text-shadow: 1px 1px 2px black;
     }
+
+    /* Stronger shadow for the main welcome message */
+    .hero-title {
+      font-size: 2.5em;
+      text-shadow:
+        3px 3px 8px black,
+        0 0 12px rgba(0, 0, 0, 0.6);
+    }
   </style>
 </head>
 <body>
@@ -54,7 +61,7 @@
     <a href="social.html">Social Media</a>
   </div>
 
-  <h1>Welcome to AdamSerafino.com</h1>
+  <h1 class="hero-title">Welcome to AdamSerafino.com</h1>
   <h1>Actor, photographer, event coordinator and more!</h1>
   <p>
     See my book here: 
