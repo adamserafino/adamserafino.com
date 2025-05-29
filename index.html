@@ -4,22 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adam Serafino</title>
-  <title>Adam Serafino</title>
   <link rel="stylesheet" href="style.css">
   
   <style>
     body {
-      background-image: url(Beach.jpg);
+      background-image: url('Beach.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      background-attachment: fixed; /* Optional: keeps the background in place when scrolling */
+      background-attachment: fixed;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Simple navbar styles */
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+      overflow: hidden;
+      padding: 10px 20px;
+    }
+
+    .navbar a {
+      float: left;
+      color: #fff;
+      text-align: center;
+      padding: 10px 16px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    h1, p {
+      color: white;
+      text-shadow: 1px 1px 2px black;
     }
   </style>
 </head>
 <body>
+
+  <!-- Navigation Menu -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="photography.html">Photography</a>
+    <a href="contact.html">Contact</a>
+    <a href="social.html">Social Media</a>
+  </div>
+
   <h1>Hello everyone!</h1>
   <h1>Actor, photographer, event coordinator and more!</h1>
-  <p> See my book here: <a href="https://www.amazon.com/Write-Book-Super-Duper-Fast/dp/1731164076/ref=sr_1_1?crid=1UDJL86PJ4P0K&keywords=adam+serafino&qid=1678379816&sprefix=adam+serafino%2Caps%2C156&sr=8-1">My Book on Amazon</a>
+  <p>
+    See my book here: 
+    <a href="https://www.amazon.com/Write-Book-Super-Duper-Fast/dp/1731164076/ref=sr_1_1?crid=1UDJL86PJ4P0K&keywords=adam+serafino&qid=1678379816&sprefix=adam+serafino%2Caps%2C156&sr=8-1">
+      My Book on Amazon
+    </a>
+  </p>
+
 </body>
 </html>
