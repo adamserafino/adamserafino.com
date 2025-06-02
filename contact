@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adam Serafino</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <style>
+    body {
+      background-image: url('Beach.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.6);
+      overflow: hidden;
+      padding: 10px 20px;
+    }
+
+    .navbar a {
+      float: left;
+      color: #fff;
+      text-align: center;
+      padding: 10px 16px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    h1, p {
+      color: white;
+      text-shadow: 1px 1px 2px black;
+    }
+
+    .hero-title {
+      font-size: 2.5em;
+      text-shadow:
+        3px 3px 8px black,
+        0 0 12px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Shift main content to the right by 1.5 inches */
+    .content {
+      margin-left: 1.5in;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+  <a href="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/122660844_810768699489698_6607234738193575958_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UruNLVUa6BAQ7kNvwEUoLFZ&_nc_oc=Adl0UF6o7Bcjsu5TFXBhoh2-uYD1P8Jvk7H6nslHaWzY89WDkh9URK1lvZXQYng6WRs&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=y5Z_WCC8GdJmstO6_jE39A&oh=00_AfIy9mwqF4-JfdBfVmY6gsl0bLvJ1BYjPP8_BHYnkY43Ag&oe=68606167" target="_blank">
+    Photography
+  </a>
+
+    <a href="contact.html">Contact</a>
+    <a href="social.html">Social Media</a>
+  </div>
+
+  <!-- Main Content Shifted Right -->
+  <div class="content">
+    <h1 class="hero-title">Email me at: (email coming soon)</h1>
+    <h1>Actor, photographer, event coordinator and more!</h1>
+    <p>
+      See my book here: 
+      <a href="https://www.amazon.com/Write-Book-Super-Duper-Fast/dp/1731164076/ref=sr_1_1?crid=1UDJL86PJ4P0K&keywords=adam+serafino&qid=1678379816&sprefix=adam+serafino%2Caps%2C156&sr=8-1">
+        My Book on Amazon
+      </a>
+    </p>
+  </div>
+
+</body>
+</html>
+
 
